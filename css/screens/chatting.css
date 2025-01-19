@@ -110,6 +110,7 @@
   display: flex;
   background-color: white;
   justify-content: space-between;
+  box-sizing: border-box;
   padding: 5px 25px;
   align-items: center;
   transition: transform 0.3s ease-in-out;
@@ -126,7 +127,7 @@
 }
 
 .reply input {
-  height: 30px;
+  height: 40px;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20%;
@@ -137,12 +138,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  bottom: 5px;
+  bottom: 7px;
   right: 15px;
 }
 
 .reply__column:last-child > i {
-  bottom: 15px;
+  bottom: 19px;
   right: 70px;
 }
 
@@ -172,7 +173,7 @@
 
 .reply input:focus-within {
   width: 95vh;
-  transform: translateX(-5%) translateY(-50px);
+  transform: translateX(-11%) translateY(-50px);
 }
 
 .reply:focus-within {
