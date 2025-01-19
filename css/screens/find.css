@@ -1,0 +1,21 @@
+.find-screen {
+  margin: 50px 50px;
+}
+
+.Recommended-Friends {
+  margin-top: 15px;
+  margin-left: -15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Recommended-Friends__header {
+  font-weight: 600;
+}
+
+.Recommended-Friends__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

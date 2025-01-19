@@ -1,0 +1,12 @@
+.chat-user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: flex-end;
+}
+
+.chat-user-component__notification {
+  width: 17px;
+  height: 17px;
+  margin-top: 5px;
+}

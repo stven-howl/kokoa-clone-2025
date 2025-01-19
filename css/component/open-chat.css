@@ -1,0 +1,117 @@
+.Open-Chat {
+  margin-top: 10px;
+  margin-left: -15px;
+}
+
+.Open-Chat__header {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Open-Chat__header h4 {
+  font-weight: 600;
+}
+
+.Open-Chat_link {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.Open-Chat__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+.Open-Chat__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.Open-Chat__name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Open-Chat__hashtag {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.Open-Chat__Info {
+  display: flex;
+  align-items: center;
+}
+
+.Open-Chat__personal-photo {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.Open-Chat__number {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Open-Chat__Info .divider {
+  width: 1px;
+  height: 14px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Open-Chat__status {
+  font-size: 12px;
+  color: hotpink;
+  font-weight: 600;
+}
+
+.Open-Chat__column:last-child {
+  position: relative;
+}
+
+.Open-Chat__photo {
+  height: 95px;
+  width: 95px;
+  border-radius: 10%;
+}
+
+.Open-Chat__likes {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 20%;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.Open-Chat__likes i:hover {
+  will-change: trasform;
+  animation: heartbeat 1s linear infinite;
+}

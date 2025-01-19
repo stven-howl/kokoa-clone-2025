@@ -1,0 +1,18 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: var(--main-border);
+}
+
+.icon-row_column {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.icon-row_column i {
+  margin-bottom: 20px;
+}
